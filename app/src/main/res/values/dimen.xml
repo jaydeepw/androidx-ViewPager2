@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="pageMargin">20dp</dimen>
-    <dimen name="offset">30dp</dimen>
-    <dimen name="pageMarginAndOffset">50dp</dimen>
+    <dimen name="pageMargin">5dp</dimen>
+    <dimen name="offset">5dp</dimen>
+    <dimen name="pageMarginAndOffset">20dp</dimen>
+    <dimen name="viewpager_next_item_visible">75dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">28dp</dimen>
 </resources>

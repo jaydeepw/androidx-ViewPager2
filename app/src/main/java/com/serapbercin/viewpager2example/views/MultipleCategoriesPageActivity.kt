@@ -35,10 +35,13 @@ class MultipleCategoriesPageActivity : AppCompatActivity() {
                 if (ViewCompat.getLayoutDirection(viewPager) == ViewCompat.LAYOUT_DIRECTION_RTL) {
                     page.translationX = -offset
                 } else {
-                    page.translationX = offset
+                    // page.translationX = offset
+                    // page.translationX = (0.1 * offset).toFloat()
+                    page.translationZ = 20f
                 }
             } else {
-                page.translationY = offset
+                // page.translationY = offset
+                page.translationY = (0.1 * offset).toFloat()
             }
         }
     }
